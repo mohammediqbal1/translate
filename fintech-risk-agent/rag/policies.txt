@@ -1,0 +1,17 @@
+[Credit Score Policies]
+- Loans above 40000 require manual review if credit score < 650.
+- Reject automatically if credit_score < 550.
+- Prefer credit_score > 720 for instant approval.
+
+[Income & Employment]
+- High risk if employment_years < 2 unless income > 80000.
+- Self-employed applicants (employment_years = 0) require 2 years tax returns.
+
+[Debt-to-Income (DTI)]
+- DTI > 0.50 is considered critical risk; requires strong compensating factors (e.g., LTV < 60%).
+- DTI > 0.43 (Qualified Mortgage limit) triggers enhanced review.
+- Conservative limit: DTI should not exceed 0.36 for preferred rates.
+
+[Loan Terms]
+- Loan terms > 48 months for amounts < 10000 are not recommended.
+- Loans for debt consolidation have higher default rates; capped at 0.40 DTI.
